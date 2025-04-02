@@ -1,0 +1,31 @@
+<header>
+    <div class="position">
+        <div class="bubble">
+            <h1 id="header">Interactive Map</h1>
+        </div>
+    </div>
+    
+</header>
+
+<div id="left-column" class="flex justify-center">
+    <app-world-map
+    (selectedId)="id = $event"
+    (selectedCapital)="capital = $event"
+    (selectedRegion)="region = $event"
+    (selectedIncomeLevel)="incomeLevel = $event"
+    (selectedLatitude)="latitude = $event"
+    (selectedLongitude)="longitude = $event"
+
+    [countryId]="id"
+    [countryCapital]="capital"
+    [countryRegion]="region"
+    [countryIncomeLevel]="incomeLevel"
+    [countryLatitude]="latitude"
+    [countryLongitude]="longitude"
+    ></app-world-map>
+</div>
+
+
+<footer class="uppercase text-center text-xs fixed bottom-0 w-full z-20 p-2 md:justify-between">
+    Information by <a href="https://www.worldbank.org/en/home" class="font-bold">The World Bank</a> 
+</footer>
