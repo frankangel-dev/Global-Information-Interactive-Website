@@ -1,87 +1,36 @@
-# 🗺️ Interactive World Map
+# Interactive World Map
 
-An interactive world map web application that visualizes country-specific data using data sourced from **The World Bank**.  
-Click on any country to view detailed information such as capital, region, income classification, and geographical coordinates.
-
-Built using **[Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.** and powered by **The World Bank** dataset.
+An interactive web application that visualizes country-specific data using information sourced from The World Bank. Built with Angular 17, it allows users to explore global information by clicking on countries to view their capital, region, income level, and exact geographical coordinates.
 
 ---
 
-## ✨ Features
+## Tech Stack
 
-✔ Interactive map with clickable countries  
-✔ Displays real-time country information  
-✔ Capital, region, income level, and geo-coordinates  
-✔ Smooth UI transitions  
-✔ Clean and minimalist design  
-✔ Responsive for different screen sizes  
-✔ Built with Angular 17
+![Angular](https://img.shields.io/badge/Angular_17-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![SVG](https://img.shields.io/badge/SVG_Map-FFB13B?style=for-the-badge&logo=svg&logoColor=black)
 
 ---
 
-## 🖼 Screenshot
+## Features
 
-<img src="Screenshots/InteractiveMap.png" width="600">
+- **Interactive SVG Map:** Click on any country to immediately update the interface with new data.
+- **Detailed Country Data:** View capitals, regions, and income classifications sourced from The World Bank dataset.
+- **Geographical Info:** Displays exact latitude and longitude coordinates for selected locations.
+- **Responsive Layout:** A clean, minimal interface designed to adapt smoothly to different screen sizes.
 
----
+## Local Development
 
-## 🛠 Tech Stack
-
-- Angular 17
-- TypeScript
-- SCSS / CSS
-- The World Bank Data
-- SVG Map integration
-
----
-
-## 🎯 Why This Project?
-
-This project demonstrates:
-- Real-world application of SVG and DOM manipulation
-- Interactive map building using static data
-- Clean structure with focus on data-driven UI
-- User-friendly design and interaction
-- Static dataset showcase from The World Bank
+1. Clone the repository and navigate into the project directory.
+2. Run `npm install` to install all dependencies.
+3. Run `ng serve` to start the development server.
+4. Navigate to `http://localhost:4200/` in your browser. The application will automatically reload if you change any source files.
 
 ---
 
-## 💡 Future Improvements
+## Screenshots
 
-- Zoom & Pan functionality
-- Enhanced mobile support
-- Dynamic data fetching from live APIs
-- Search & Filter countries
-- Charts & historical data visualization
-
----
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
-
----
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
----
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
----
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
----
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+|                                            |
+|:------------------------------------------:|
+| <img src="Screenshots/InteractiveMap.png"> |
